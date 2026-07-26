@@ -1,8 +1,26 @@
 aid: firstfuel-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/firstfuel-software.png
 name: FirstFuel Software
-description: FirstFuel Software is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: FirstFuel Software was a business-focused energy analytics SaaS company
+  that used utility meter and building data to profile commercial and industrial customers,
+  helping utilities target energy-efficiency and customer-engagement programs. The company
+  was acquired by Uplight, and the firstfuel.com domain now redirects to uplight.com.
+  It was surfaced as a portfolio company of Battery Ventures and added to the API Evangelist
+  network as a stub. The enrichment pipeline found no active first-party developer surface
+  (no developer, api, or docs subdomains resolve, and no OpenAPI, SDK, or MCP artifacts
+  are published), so this profile remains an identity-only record for a company that no
+  longer operates a standalone API program.
 url: https://raw.githubusercontent.com/api-evangelist/firstfuel-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,30 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: uplight
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Energy
+- Analytics
+- Utilities
+- Energy Efficiency
+- SaaS
+- Acquired
+common:
+- type: Website
+  url: https://firstfuel.com
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
