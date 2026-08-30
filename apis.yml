@@ -61,6 +61,11 @@ tags_raw:
 - SaaS
 - Acquired
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/uplight/
+  name: Uplight
+  x-relationship: acquired
+  x-evidence: "The company was acquired by Uplight, and the firstfuel."
 - type: Website
   url: https://firstfuel.com
 apis: []
